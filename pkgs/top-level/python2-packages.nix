@@ -11,6 +11,8 @@ with self; with super; {
 
   bootstrapped-pip = toPythonModule (callPackage ../development/python2-modules/bootstrapped-pip { });
 
+  chardet = callPackage ../development/python2-modules/chardet { };
+
   cffi = callPackage ../development/python2-modules/cffi { inherit cffi; };
 
   configparser = callPackage ../development/python2-modules/configparser { };
